@@ -1,6 +1,6 @@
 # Carnes Buelna
 
-Sitio estático en español compuesto por páginas HTML independientes. La portada del proyecto es `index.html` y enlaza las seis experiencias disponibles.
+Sitio estático en español compuesto por páginas HTML independientes. `index.html` redirige a la portada visual completa en `inicio_carnes_buelna_calidad_de_sonora/Main.html`, que también está disponible como una de las seis experiencias del sitio.
 
 ## Páginas
 
