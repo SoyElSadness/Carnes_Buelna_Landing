@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Domine:wght@600;700&amp;family=Hanken+Grotesk:wght@400;600&amp;family=Space+Grotesk:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-secondary-fixed":"#281900","primary-fixed-dim":"#ffb3ac","on-primary-fixed-variant":"#930010","on-tertiary-fixed-variant":"#484643","on-error":"#690005","on-error-container":"#ffdad6","tertiary-fixed":"#e6e2dd","surface":"#131313","secondary":"#f4bd61","outline-variant":"#5c403d","tertiary-container":"#696662","secondary-container":"#855b00","secondary-fixed":"#ffdead","on-background":"#e5e2e1","surface-container-low":"#1c1b1b","primary-container":"#c91d24","surface-container-high":"#2a2a2a","on-secondary":"#432c00","on-primary-fixed":"#410003","surface-variant":"#353534","inverse-on-surface":"#313030","surface-container-lowest":"#0e0e0e","inverse-primary":"#bd101d","on-surface":"#e5e2e1","surface-dim":"#131313","secondary-fixed-dim":"#f4bd61","inverse-surface":"#e5e2e1","error-container":"#93000a","tertiary-fixed-dim":"#cac6c1","on-tertiary-fixed":"#1d1b19","outline":"#ac8885","surface-container-highest":"#353534","on-primary":"#680008","on-secondary-fixed-variant":"#604100","error":"#ffb4ab","on-surface-variant":"#e5bdb9","background":"#131313","primary":"#ffb3ac","tertiary":"#cac6c1","on-primary-container":"#ffdedb","surface-tint":"#ffb3ac","on-tertiary-container":"#e9e5e0","on-tertiary":"#32302d","surface-bright":"#3a3939","surface-container":"#201f1f","primary-fixed":"#ffdad6","on-secondary-container":"#ffdba5"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"gutter":"1.5rem","margin":"2rem","space-xs":"0.25rem","space-xl":"2.5rem","space-md":"1rem","space-sm":"0.5rem","space-lg":"1.5rem"},fontFamily:{"body-md":["Hanken Grotesk"],"headline-lg-mobile":["Domine"],"label-sm":["Space Grotesk"],"headline-md":["Domine"],"headline-lg":["Domine"],"headline-sm":["Domine"],"label-lg":["Space Grotesk"],"headline-xl-mobile":["Domine"],"body-lg":["Hanken Grotesk"],"label-md":["Space Grotesk"],"headline-xl":["Domine"],"body-sm":["Hanken Grotesk"]},fontSize:{"body-md":["15px",{lineHeight:"24px",fontWeight:"400"}],"headline-lg-mobile":["28px",{lineHeight:"36px",fontWeight:"700"}],"label-sm":["10px",{lineHeight:"14px",letterSpacing:"0.12em",fontWeight:"700"}],"headline-md":["26px",{lineHeight:"34px",fontWeight:"700"}],"headline-lg":["40px",{lineHeight:"48px",fontWeight:"700"}],"headline-sm":["20px",{lineHeight:"28px",fontWeight:"600"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.08em",fontWeight:"700"}],"headline-xl-mobile":["38px",{lineHeight:"44px",letterSpacing:"-0.01em",fontWeight:"700"}],"body-lg":["18px",{lineHeight:"28px",fontWeight:"400"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.1em",fontWeight:"600"}],"headline-xl":["56px",{lineHeight:"64px",letterSpacing:"-0.02em",fontWeight:"700"}],"body-sm":["13px",{lineHeight:"20px",fontWeight:"400"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.6)]"><div class="h-20 w-full px-gutter flex items-center justify-between"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-sm" data-path="inicio" href="#"><div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center"><span class="material-symbols-outlined text-secondary">local_fire_department</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm uppercase tracking-tight text-on-surface">Carnes Buelna</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Calidad Hermosillo, Sonora</span></div></a></div><nav class="hidden lg:flex items-center gap-space-md" data-active-classes="bg-surface-container-high text-secondary font-label-md rounded"><a aria-current="page" class="px-space-md py-space-sm uppercase tracking-wider transition-all bg-surface-container-high text-secondary font-label-md rounded" data-path="cortes-estelares" href="#">Cortes Estelares</a><a class="px-space-md py-space-sm font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="paquetes-parrilleros" href="#">Paquetes Parrilleros</a><a class="px-space-md py-space-sm font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="calculadora-parrillera" href="#">Calculadora</a><a class="px-space-md py-space-sm font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="guia-de-asado" href="#">Guía de Asado</a><a class="px-space-md py-space-sm font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="origen-sonora" href="#">Origen &amp; Rancho</a></nav><div class="flex items-center gap-space-md"><a class="p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface transition-colors" data-path="carrito" href="#"><span class="material-symbols-outlined">shopping_bag</span></a><a class="inline-flex items-center gap-space-xs px-space-md py-space-sm bg-primary-container text-on-primary-container font-label-sm text-label-sm uppercase tracking-widest rounded-lg shadow-[0_4px_24px_rgba(201,29,36,0.35)] hover:bg-primary hover:text-on-primary transition-all" data-path="contacto-whatsapp" href="#"><span class="material-symbols-outlined text-[18px]">chat</span><span>Pedir por WhatsApp</span></a><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1UA1O_zHRqc18SM6EMdpt-iCIyrTl1b0HFHxnvNj6DeBADe6f6OcL2wQnsHsbYwwJrQalCRIhXtfoWlLcxHS4wmsJ8BZbQ7BvvXKIw5coKjui4tRNxz_MwZYixWA_pL60P2iS5nim8OdE2fgagOnpLGnsj2K-2Zt4JxPLEB4BHzR05e92qwm6Xozl__CUKnhU97G0i4R0OzgPdjkjwAoNr1b4K1pjKoyaiT4xz8W9-xrbfzGKIRZKlOB8Q"/></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- BREADCRUMBS & TOP CONTEXT -->
+<section class="w-full px-gutter pt-space-lg pb-space-sm bg-surface">
+<div class="max-w-7xl mx-auto flex items-center justify-between">
+<nav class="flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md uppercase tracking-wider">
+<a class="hover:text-secondary transition-colors" data-path="inicio" href="#">Inicio</a>
+<span class="text-tertiary-container">/</span>
+<a class="hover:text-secondary transition-colors" data-path="cortes-estelares" href="#">Cortes Estelares</a>
+<span class="text-tertiary-container">/</span>
+<span class="text-secondary font-bold">Tomahawk Sonorense Buelna</span>
+</nav>
+<div class="hidden md:flex items-center gap-space-xs font-label-sm text-label-sm text-on-surface-variant bg-surface-container-high px-space-md py-space-xs rounded-full">
+<span class="material-symbols-outlined text-[16px] text-secondary">workspace_premium</span>
+<span>Lote Seleccionado No. 842 - Rancho Los Bagotes, Sonora</span>
+</div>
+</div>
+</section>
+<!-- HERO PRODUCT SECTION (2 COLUMNS) -->
+<section class="w-full px-gutter py-space-lg bg-surface">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
+<!-- LEFT COLUMN: GALLERY & VISUAL SPECS -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<!-- Main Stage Viewport -->
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-surface-container-low shadow-[0_12px_40px_rgba(0,0,0,0.85)] group">
+<!-- Background Glow Effect for Ember Aesthetic -->
+<div class="absolute -top-24 -left-24 w-96 h-96 bg-primary-container/20 rounded-full blur-3xl pointer-events-none"></div>
+<img alt="Tomahawk Buelna Prime Crudo" class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Photographic high-resolution close-up of a raw prime tomahawk steak resting on a textured dark basalt slab. The meat displays deep ruby crimson muscle with intricate snowflake marbling. A long, clean, 30cm French-trimmed bone extends with warm rustic mesquite embers softly glowing in the dark background. Dramatic rim lighting captures moisture droplets and glistening fat cap." id="main-cut-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPGL3JC_tf3tv1ACUXfItTt16J_atLEzwpm_cQ0X_Tb4vCdYhTsjToBXEli7k2z2gd24fQcvsgsapdpWxTiSaoQWSzoty41QuOkm9VAIkZApZGTAf7JUSQbQp6dF_K_kdLXbLYHpohQ--5qrlWMLj-BcHmvCRBady2HEQ5Ul97hoz64CmmI7ACEu5-wLnh_yTf_CsFzFeaIZPrc6XzoOc4ucx4GBQe9QwYeai2uOay"/>
+<!-- Gradient Overlay -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-black/30 pointer-events-none"></div>
+<!-- Feature Pills over Image -->
+<div class="absolute top-space-md left-space-md flex flex-wrap gap-space-xs">
+<span class="px-space-md py-space-xs rounded-full bg-secondary/90 backdrop-blur-md text-on-secondary font-label-sm text-label-sm uppercase tracking-widest shadow-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span>
+              Prime Sonora
+            </span>
+<span class="px-space-md py-space-xs rounded-full bg-surface-container-highest/80 backdrop-blur-md text-on-surface font-label-sm text-label-sm uppercase tracking-wider">
+              Hueso Francés 30cm
+            </span>
+<span class="px-space-md py-space-xs rounded-full bg-surface-container-highest/80 backdrop-blur-md text-on-surface font-label-sm text-label-sm uppercase tracking-wider">
+              Maduración 28 Días
+            </span>
+</div>
+<!-- Zoom Micro-action Badge -->
+<div class="absolute bottom-space-md right-space-md px-space-sm py-space-xs rounded-lg bg-surface/80 backdrop-blur-md text-on-surface-variant font-label-sm text-label-sm uppercase flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">zoom_in</span>
+<span>Vista de Marmoleado BMS 6+</span>
+</div>
+</div>
+<!-- Thumbnails Selector -->
+<div class="grid grid-cols-3 gap-space-md">
+<button class="thumb-btn active relative rounded-lg overflow-hidden bg-surface-container-high p-1 text-left transition-all bg-surface-container-highest" data-index="0" onclick="switchMainImage(0)" type="button">
+<div class="relative w-full aspect-video rounded overflow-hidden mb-space-xs">
+<img alt="Corte Crudo" class="w-full h-full object-cover" data-alt="Raw Prime Tomahawk steak with detailed intense white fat marbling and French cut rib bone placed on butcher black paper with sea salt flakes." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpqJtVto_Jrlb_cxGYk5KW9SgUsCYIG4MKCaXuVEOiSZ_CBqb7Fft-DQc0v7jRI1DAIDJpQSdokgxiSa_GCQU0S3U3L5kaea5p4UmYtduKbo1kMi-IXme2_F5_xeBcisXXGbgDSU6fSkKpPqKnLK_p4nLnwF3d2f4E1ZxBw3fhfF9rNhXuOn2N7Ulbl860ROM5FDi92gy1HWunmtV67rZRBSRPkJnQg-iTCAp0v9Mk"/>
+</div>
+<div class="px-space-xs py-space-xs flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase text-secondary font-bold">1. Corte Crudo</span>
+<span class="material-symbols-outlined text-secondary text-[14px]">check_circle</span>
+</div>
+</button>
+<button class="thumb-btn relative rounded-lg overflow-hidden bg-surface-container p-1 text-left transition-all hover:bg-surface-container-high" data-index="1" onclick="switchMainImage(1)" type="button">
+<div class="relative w-full aspect-video rounded overflow-hidden mb-space-xs">
+<img alt="En Parrilla Mezquite" class="w-full h-full object-cover" data-alt="Thick Tomahawk steak sizzling on heavy cast iron grate over crackling mesquite charcoal embers with deep red sparks and golden sear marks." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKn_5khHifQEIVZYayXA0M7FksPapIMxQC5pMigTe7JARrYzzHQhkgM0PwPL5GoJU4C-xVz4Eqko88eVnd6wxFFrveARveqkaK2g6CCPHz2gmZM3JX9daX62MBV8nm_tY2zmeb_3_3D7pGFJA_XpigNt5j513iVnLpGMssW7VpMHxX1Va2hZvQXU9VIZgz3fDTvRKyvhhmjB5ZtndXRsi_sK2GCMHQ--CUg4EJLZjb"/>
+</div>
+<div class="px-space-xs py-space-xs flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">2. En Parrilla</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[14px]">outdoor_grill</span>
+</div>
+</button>
+<button class="thumb-btn relative rounded-lg overflow-hidden bg-surface-container p-1 text-left transition-all hover:bg-surface-container-high" data-index="2" onclick="switchMainImage(2)" type="button">
+<div class="relative w-full aspect-video rounded overflow-hidden mb-space-xs">
+<img alt="Corte en Mesa Reposado" class="w-full h-full object-cover" data-alt="Resting medium-rare Tomahawk carved into thick juicy steaks on a rustic Sonoran mesquite wooden cutting board with flaky sea salt and roasted chiltepin peppers." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCopRgEgfuSdVw0GNwibXCvPB0aMdjtPplA2UM4gWyesfbLMTjR7PmHLGWUzOdMj5oaKgYdeqk99KXgTBPuuCxJ0kVI_-cT9m6nciXDLH9CtTfTVBRRP14wdB6kTnN2eW-qK0qGRXjvy_WRO2sY4KGJZv14d2pLrFBK77DTUSnRmaBNGg7biWDt4u7LlLawWPok7gPwxEfjI8kUVGQ5HSbG9lUwzM5MsiMvcJ_-B0oo"/>
+</div>
+<div class="px-space-xs py-space-xs flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">3. Mesa &amp; Reposo</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[14px]">restaurant</span>
+</div>
+</button>
+</div>
+<!-- Master Butcher Sensory Note -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex-shrink-0 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">verified</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary">Certificación de Marmoleado Ganadero</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+              Cada tomahawk es seleccionado a mano en Hermosillo. Su ojo de bife preserva el complejo intramuscular de grasa blanca que carameliza a 55°C, logrando una mantequilla natural con aroma a mezquite sonorense.
+            </p>
+</div>
+</div>
+</div>
+<!-- RIGHT COLUMN: COMMERCE ENGINE & CONFIGURATOR -->
+<div class="lg:col-span-5 flex flex-col justify-between">
+<div class="flex flex-col gap-space-md">
+<!-- Badges & Origin Bar -->
+<div class="flex items-center gap-space-sm flex-wrap">
+<span class="px-space-sm py-space-xs rounded bg-primary-container text-on-primary-container font-label-sm text-label-sm uppercase tracking-widest font-bold">
+              Corte Insignia del Asador
+            </span>
+<span class="px-space-sm py-space-xs rounded bg-surface-container-high text-secondary font-label-sm text-label-sm uppercase tracking-widest flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">location_on</span>
+              Origen Hermosillo, Sonora
+            </span>
+</div>
+<!-- Product Title & Narrative -->
+<div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight uppercase leading-tight">
+              Tomahawk Buelna <span class="text-secondary block">Grado Prime</span>
+</h1>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm">
+              El rey indiscutible de la parrillada norteña. Ribeye con costilla entera expuesta de 30 cm con limpieza francesa, veteado intramuscular alimentado con grano sonorense y una terneza que se deshace al paladar.
+            </p>
+</div>
+<!-- Price Engine Display -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex items-end justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Precio Base por Kilogramo</span>
+<div class="flex items-baseline gap-space-xs mt-1">
+<span class="font-headline-md text-headline-md text-secondary font-bold">$640</span>
+<span class="font-label-md text-label-md text-on-surface-variant">MXN / kg</span>
+</div>
+</div>
+<div class="text-right flex flex-col items-end">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider">Importe Estimado de Pieza</span>
+<span class="font-headline-lg text-headline-lg text-on-surface font-bold leading-none mt-1" id="calculated-price">$768 MXN</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1" id="calculated-servings">Ideal para 3 a 4 comensales</span>
+</div>
+</div>
+<!-- Interactive Cut Configuration Selector -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<label class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-bold">Selección de Pieza &amp; Grosor:</label>
+<span class="font-label-sm text-label-sm text-secondary">Corte Fresco Termoformado</span>
+</div>
+<div class="grid grid-cols-1 gap-space-sm">
+<!-- Option 1: Standard -->
+<button class="piece-option active p-space-md rounded-lg text-left transition-all flex items-center justify-between bg-surface-container-high" onclick="selectPieceOption('1.2', '768', '3 - 4 comensales', '2.0', this)" type="button">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold uppercase">Pieza Estándar 1.2 kg (Grosor 2")</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">El balance clásico sonorense para sellado perfecto y centro rosado.</span>
+</div>
+<div class="text-right flex flex-col items-end pl-space-md">
+<span class="font-label-md text-label-md text-secondary font-bold">~$768 MXN</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">radio_button_checked</span>
+</div>
+</button>
+<!-- Option 2: Double Bone -->
+<button class="piece-option p-space-md rounded-lg text-left transition-all flex items-center justify-between bg-surface-container-low hover:bg-surface-container" onclick="selectPieceOption('1.5', '960', '4 - 5 comensales', '2.5', this)" type="button">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold uppercase">Pieza Doble Hueso 1.5 kg (Grosor 2.5")</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Grosor de competencia para cocción indirecta lenta con leña.</span>
+</div>
+<div class="text-right flex flex-col items-end pl-space-md">
+<span class="font-label-md text-label-md text-on-surface-variant font-bold">~$960 MXN</span>
+<span class="material-symbols-outlined text-tertiary-container text-[20px]">radio_button_unchecked</span>
+</div>
+</button>
+<!-- Option 3: Gran Reserva -->
+<button class="piece-option p-space-md rounded-lg text-left transition-all flex items-center justify-between bg-surface-container-low hover:bg-surface-container" onclick="selectPieceOption('1.8', '1152', '5 - 6 comensales', '3.0', this)" type="button">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold uppercase">Corte Gran Reserva 1.8 kg (Grosor 3")</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Pieza colosal para ocasiones de gala. Selección con el más alto marmoleo.</span>
+</div>
+<div class="text-right flex flex-col items-end pl-space-md">
+<span class="font-label-md text-label-md text-on-surface-variant font-bold">~$1,152 MXN</span>
+<span class="material-symbols-outlined text-tertiary-container text-[20px]">radio_button_unchecked</span>
+</div>
+</button>
+</div>
+</div>
+<!-- Término Recomendado Banner -->
+<div class="p-space-md rounded-xl bg-surface-container flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-primary-container/20 flex-shrink-0 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">thermostat</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-sm flex-wrap">
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold">Término Recomendado:</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest font-label-sm text-label-sm text-on-surface uppercase">Término Medio (54°C - 57°C)</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Centro rojo rosado caliente, grasa intercostal completamente fundida y jugo retenido al 100%. No requiere más que sal gruesa de mar sonorense.
+              </p>
+</div>
+</div>
+<!-- Counter and WhatsApp Primary CTA -->
+<div class="flex flex-col sm:flex-row items-stretch gap-space-md pt-space-xs">
+<!-- Counter -->
+<div class="flex items-center justify-between bg-surface-container-high rounded-xl px-space-md py-space-sm min-w-[140px]">
+<button class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:text-secondary transition-colors" onclick="decrementQty()" type="button">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+<div class="flex flex-col items-center">
+<span class="font-label-lg text-label-lg font-bold text-on-surface" id="quantity-display">1</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Pieza</span>
+</div>
+<button class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:text-secondary transition-colors" onclick="incrementQty()" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+<!-- WhatsApp Primary Button with Dynamic Pre-filled Link -->
+<a class="flex-1 inline-flex items-center justify-center gap-space-sm px-space-lg py-space-md bg-primary-container text-on-primary-container font-label-lg text-label-lg uppercase tracking-wider rounded-xl shadow-[0_6px_28px_rgba(201,29,36,0.45)] hover:bg-primary hover:text-on-primary hover:-translate-y-0.5 active:translate-y-0 transition-all font-bold text-center" href="https://wa.me/526622894000?text=Hola%20Carnes%20Buelna%2C%20deseo%20ordenar%3A%201%20pza%20de%20Tomahawk%20Prime%20(1.2%20kg%20-%20Grosor%202%22)%20con%20empaque%20al%20vac%C3%ADo%20para%20env%C3%ADo%20inmediato." id="whatsapp-cta-link" target="_blank">
+<span class="material-symbols-outlined text-[24px]">chat</span>
+<span>Pedir Tomahawk por WhatsApp</span>
+</a>
+</div>
+<!-- Trust Badges Bar -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-xs pt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-[18px]">inventory_2</span>
+<span class="font-body-sm text-body-sm">Vacío exportación</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-[18px]">ac_unit</span>
+<span class="font-body-sm text-body-sm">Cadena 0°C a 4°C</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-[18px]">local_shipping</span>
+<span class="font-body-sm text-body-sm">Exprés Hermosillo</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FICHA TÉCNICA SONORENSE (SPECIFICATION BENTO GRID) -->
+<section class="w-full px-gutter py-space-xl bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary">Ficha Técnica &amp; Procedencia</span>
+<h2 class="font-headline-lg text-headline-lg uppercase text-on-surface tracking-tight mt-1">
+            Pureza y Genética Sonorense
+          </h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">
+          El clima desértico, el grano regional y la dedicación ganadera de generaciones hacen de la carne sonorense un referente culinario de prestigio mundial.
+        </p>
+</div>
+<!-- Specs Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-space-md">
+<!-- Spec 1: Raza -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col justify-between hover:bg-surface-container-high transition-colors">
+<div class="w-12 h-12 rounded-lg bg-surface-container-highest flex items-center justify-center text-secondary mb-space-md">
+<span class="material-symbols-outlined text-[26px]">pets</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Raza &amp; Genética</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Angus &amp; Brangus</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+              Criado en los pastizales naturales y valles del centro-norte de Sonora, México.
+            </p>
+</div>
+</div>
+<!-- Spec 2: Dieta -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col justify-between hover:bg-surface-container-high transition-colors">
+<div class="w-12 h-12 rounded-lg bg-surface-container-highest flex items-center justify-center text-secondary mb-space-md">
+<span class="material-symbols-outlined text-[26px]">grass</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Alimentación de Grano</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">150 Días Grano</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+              Finalización controlada con maíz seleccionado, sorgo y alfalfa del valle sonorense.
+            </p>
+</div>
+</div>
+<!-- Spec 3: Marmoleado -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col justify-between hover:bg-surface-container-high transition-colors">
+<div class="w-12 h-12 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[26px]">water_drop</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Grado de Grasa</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">BMS 5 - 7 Prime</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+              Infiltración homogénea de vetas blancas que garantizan untuosidad sin saturar.
+            </p>
+</div>
+</div>
+<!-- Spec 4: Longitud Hueso -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col justify-between hover:bg-surface-container-high transition-colors">
+<div class="w-12 h-12 rounded-lg bg-surface-container-highest flex items-center justify-center text-secondary mb-space-md">
+<span class="material-symbols-outlined text-[26px]">straighten</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Limpieza Francesa</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">30 cm Hueso</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+              Hueso costal perfilado a mano por maestros carniceros, retirando cartílago exterior.
+            </p>
+</div>
+</div>
+<!-- Spec 5: Maduración -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col justify-between hover:bg-surface-container-high transition-colors">
+<div class="w-12 h-12 rounded-lg bg-surface-container-highest flex items-center justify-center text-secondary mb-space-md">
+<span class="material-symbols-outlined text-[26px]">alarm</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Proceso de Cámara</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">28 Días Wet-Aged</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+              Añejamiento en cámara con temperatura a 1°C para máxima concentración enzimática.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- EL RITUAL DEL ASADO: GUÍA PASO A PASO DEL MAESTRO PARRILLERO -->
+<section class="w-full px-gutter py-space-xl bg-surface">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col items-center text-center max-w-2xl mx-auto">
+<span class="px-space-md py-space-xs rounded-full bg-surface-container-high text-secondary font-label-sm text-label-sm uppercase tracking-widest mb-space-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">local_fire_department</span>
+          Método Tradicional de Sonora
+        </span>
+<h2 class="font-headline-lg text-headline-lg uppercase text-on-surface tracking-tight">
+          El Ritual del Asado
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Tratar una pieza de esta jerarquía requiere paciencia, buena leña y respeto por el fuego. Sigue las indicaciones del asador tradicional de Hermosillo.
+        </p>
+</div>
+<!-- 4 Steps Editorial Band -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Step 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-space-md text-surface-container-highest font-headline-lg opacity-40 font-bold">01</div>
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-space-md">
+<span class="material-symbols-outlined text-[24px]">grain</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">Fase Uno</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Atemperado &amp; Salmuera</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-sm">
+              Saca el Tomahawk de refrigeración 45 minutos antes. Aplica únicamente sal gruesa de mar sonorense y chiltepín recién machacado. La superficie debe secarse ligeramente para garantizar la costra.
+            </p>
+</div>
+<div class="pt-space-md text-on-surface font-label-sm text-label-sm uppercase tracking-wider flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span>45 min previo al fuego</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-space-md text-surface-container-highest font-headline-lg opacity-40 font-bold">02</div>
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-space-md">
+<span class="material-symbols-outlined text-[24px]">heat</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">Fase Dos</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Cocción a Fuego Indirecto</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-sm">
+              Prepara una cama de brasa de mezquite a un costado del asador a 120°C. Coloca la carne en la zona indirecta con el hueso protegiendo el músculo hasta llegar a 48°C interno en el corazón.
+            </p>
+</div>
+<div class="pt-space-md text-on-surface font-label-sm text-label-sm uppercase tracking-wider flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[16px]">thermostat</span>
+<span>120°C indirecto / 35-40 min</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-space-md text-surface-container-highest font-headline-lg opacity-40 font-bold">03</div>
+<div>
+<div class="w-12 h-12 rounded-lg bg-primary-container/20 flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[24px]">local_fire_department</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest font-bold">Fase Tres</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Sellado a la Flama Brava</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-sm">
+              Pasa la pieza directamente sobre el fuego vivo de mezquite por 2 minutos por lado. El goteo de grasa levantará llamaradas aromáticas caramelizando la corteza exterior sin quemar el centro.
+            </p>
+</div>
+<div class="pt-space-md text-on-surface font-label-sm text-label-sm uppercase tracking-wider flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[16px]">timer</span>
+<span>2 min por lado (Flama viva)</span>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-space-md text-surface-container-highest font-headline-lg opacity-40 font-bold">04</div>
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-space-md">
+<span class="material-symbols-outlined text-[24px]">restaurant_menu</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">Fase Cuatro</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Reposo Sagrado &amp; Trinchado</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-sm">
+              Coloca sobre tabla gruesa de mezquite. Deja reposar de 8 a 10 minutos para redistribuir los jugos internos. Separa la carne del hueso y trancha en medallones gruesos contra la fibra muscular.
+            </p>
+</div>
+<div class="pt-space-md text-on-surface font-label-sm text-label-sm uppercase tracking-wider flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[16px]">hourglass_bottom</span>
+<span>10 min de reposo obligatorio</span>
+</div>
+</div>
+</div>
+<!-- Banner Tip del Maestro Parrillero -->
+<div class="p-space-lg rounded-xl bg-surface-container-high flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-14 h-14 rounded-full bg-secondary text-on-secondary flex-shrink-0 flex items-center justify-center font-headline-md font-bold">
+            B
+          </div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary">Consejo de Don Joaquín Buelna</span>
+<p class="font-body-sm text-body-sm text-on-surface mt-0.5">
+              "El hueso no se tira ni se regala: se regresa a la parrilla otros 5 minutos bien doradito para raspar los mejores bocados de carne pegada al hueso acompañados de tortilla sobaquera."
+            </p>
+</div>
+</div>
+<a class="px-space-md py-space-sm rounded-lg bg-surface-container hover:bg-surface text-on-surface font-label-sm text-label-sm uppercase tracking-wider whitespace-nowrap transition-colors flex items-center gap-1" data-path="guia-de-asado" href="#">
+<span>Ver Manual Completo</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- ARMA LA CARNITA ASADA COMPLETA (CROSS-SELL CAROUSEL / GRID) -->
+<section class="w-full px-gutter py-space-xl bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-sm">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary">Acompañamientos Tradicionales</span>
+<h2 class="font-headline-lg text-headline-lg uppercase text-on-surface tracking-tight mt-1">
+            Arma la Carnita Asada Completa
+          </h2>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Accesorios &amp; Complementos Esenciales</span>
+</div>
+<!-- Cross-sell 4-Grid Cards -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Cross-sell 1: Tortillas Sobaqueras -->
+<div class="rounded-xl overflow-hidden bg-surface-container flex flex-col justify-between group hover:bg-surface-container-high transition-colors">
+<div class="relative w-full aspect-video bg-surface-container-highest overflow-hidden">
+<img alt="Tortillas de Harina Sobaqueras" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Handmade traditional Sonoran giant thin flour tortillas known as sobaqueras, folded elegantly on parchment butcher paper with golden wheat textures." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlb8ZfLOPLtomAWAvO-82PuRp8OKP93bwl9-hQOko1Ko3hxYE7YFMfQMs7FQxHR6tcRUvXhJ-J1EHJ1ahTF_C-nGNYiI3KQXp6czyyEsC2Do5iMFCxuWc8OYxseWIKkvEbfxj8GzUxDPzN3zDoAqpTEguCFX_M3iSj2UjwGGl8TPZwXcFP3KOBF44S3RHMEYJrUBQwQN7ok13LptNxoEHqK231dkLxpctoOyRzU5RX"/>
+<span class="absolute top-space-xs right-space-xs px-2 py-0.5 rounded bg-surface/80 backdrop-blur-sm text-secondary font-label-sm text-label-sm">Hechas a Mano</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Hermosillo Clásicas</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Tortillas Sobaqueras</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Paquete de 10 piezas gigantes elaboradas con manteca de cerdo selecta y harina de trigo del Yaqui.
+              </p>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<span class="font-label-lg text-label-lg font-bold text-secondary">$85 MXN</span>
+<button class="inline-flex items-center gap-1 px-space-md py-space-xs bg-surface-container-highest hover:bg-secondary hover:text-on-secondary text-on-surface rounded font-label-sm text-label-sm uppercase transition-colors" onclick="addAddon('Tortillas Sobaqueras ($85 MXN)', this)" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Agregar</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Cross-sell 2: Chiltepín de la Sierra -->
+<div class="rounded-xl overflow-hidden bg-surface-container flex flex-col justify-between group hover:bg-surface-container-high transition-colors">
+<div class="relative w-full aspect-video bg-surface-container-highest overflow-hidden">
+<img alt="Chiltepín de la Sierra Silvestre" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Small round red wild chiltepin peppers freshly crushed inside an authentic hand-carved dark Sonoran ironwood chiltepinero mill." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCC4EPsdg_-H6n4f24oH1u2nxDXYm5UGyryfmlM0jKFAuoAfTBq18-bauAFbncrVE35koB21zvmI9uhTrU7Tdl0z-c9IzxrMurgO4zhnoBy6aDNbbTqh4zuG1qtPW0CRW0liXjKrwRqbWMiOjC-keTR4ID-qLqijyzfynTsws4J0J-_kqpxmw1Sgh_L4ZvHPI-uG1Xf8crJwWlIx1oixWOqjBk9w4nIAy9KiQgWUa7N"/>
+<span class="absolute top-space-xs right-space-xs px-2 py-0.5 rounded bg-surface/80 backdrop-blur-sm text-primary font-label-sm text-label-sm">Picor Bravo</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Sierra de Sonora</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Chiltepín Silvestre</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Frasco de 80g recolectado en monte sonorense. Sabor ahumado intenso y toque ácido inconfundible.
+              </p>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<span class="font-label-lg text-label-lg font-bold text-secondary">$120 MXN</span>
+<button class="inline-flex items-center gap-1 px-space-md py-space-xs bg-surface-container-highest hover:bg-secondary hover:text-on-secondary text-on-surface rounded font-label-sm text-label-sm uppercase transition-colors" onclick="addAddon('Chiltepín de la Sierra ($120 MXN)', this)" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Agregar</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Cross-sell 3: Carbón de Mezquite -->
+<div class="rounded-xl overflow-hidden bg-surface-container flex flex-col justify-between group hover:bg-surface-container-high transition-colors">
+<div class="relative w-full aspect-video bg-surface-container-highest overflow-hidden">
+<img alt="Carbón de Mezquite Buelna" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Heavy artisan burlap sack filled with massive dense Sonoran desert mesquite lump charcoal with authentic cattle ranch stamp." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4iMT9VjEd2yVgS1GWAbibffI6LYjjz9FgvirItN5XO-5B8YYWIaTbw5sScDM5FAdwqaJKhz-MiXTnz28bFiIXaAhGHNx7-pIeYlOagVfOSuzyshVv7nW_iXEeB2BDJGJAHbQea3GiExunYZCOWzka8-jqQ7PBOEmveZSihliN6UJEkCEt0niXxSCvV6FAMQ8fft2jvpVKSzE5XfyKvmHqfzIF3wgrAr8T_kKSvESn"/>
+<span class="absolute top-space-xs right-space-xs px-2 py-0.5 rounded bg-surface/80 backdrop-blur-sm text-secondary font-label-sm text-label-sm">Larga Duración</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Madera Fuerte</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Carbón Mezquite 5kg</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Terrones macizos sin chispas explosivas. Genera brasa viva por más de 3 horas continuas.
+              </p>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<span class="font-label-lg text-label-lg font-bold text-secondary">$110 MXN</span>
+<button class="inline-flex items-center gap-1 px-space-md py-space-xs bg-surface-container-highest hover:bg-secondary hover:text-on-secondary text-on-surface rounded font-label-sm text-label-sm uppercase transition-colors" onclick="addAddon('Carbón de Mezquite 5kg ($110 MXN)', this)" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Agregar</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Cross-sell 4: Queso Asadero Sonorense -->
+<div class="rounded-xl overflow-hidden bg-surface-container flex flex-col justify-between group hover:bg-surface-container-high transition-colors">
+<div class="relative w-full aspect-video bg-surface-container-highest overflow-hidden">
+<img alt="Queso Asadero Sonorense" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Traditional artisan Sonoran asadero cheese wheel wrapped in waxed packaging, showing melty gooey texture on a cast iron skillet over coals." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAyQqDv4OlCJRcRqRdSLJYzjfLyv4GSdb_apRhRP8a-pIg7LohuH1m1N_rJ7KHdbb_oTANOw-6o0RXZfE1R4atYBN4ASStI6CO0c0ELOZNnuNHn-YJJHFF8rVEFY5fny_vhLV5ieN5MEdR9FmEU7qRY8MQd2UGQQ5wE3huBTgujKxQaZoFyKELyT81sZfItzHjSghBatOkhcsYzRKtUtsJR0ArfG3Ih9WJmnD23vOGj"/>
+<span class="absolute top-space-xs right-space-xs px-2 py-0.5 rounded bg-surface/80 backdrop-blur-sm text-secondary font-label-sm text-label-sm">Fundido Cremoso</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Ranchería Baviácora</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Queso Asadero 500g</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Auténtico queso de hebra con leche bronca pasteurizada. Se funde perfecto sobre las sobaqueras.
+              </p>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<span class="font-label-lg text-label-lg font-bold text-secondary">$140 MXN</span>
+<button class="inline-flex items-center gap-1 px-space-md py-space-xs bg-surface-container-highest hover:bg-secondary hover:text-on-secondary text-on-surface rounded font-label-sm text-label-sm uppercase transition-colors" onclick="addAddon('Queso Asadero 500g ($140 MXN)', this)" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Agregar</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- RESEÑAS DE PARRILLEROS CERTIFICADOS (REPUTATION SECTION) -->
+<section class="w-full px-gutter py-space-xl bg-surface">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-sm">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary">Opinión de la Comunidad</span>
+<h2 class="font-headline-lg text-headline-lg uppercase text-on-surface tracking-tight mt-1">
+            Reseñas de Parrilleros Certificados
+          </h2>
+</div>
+<div class="flex items-center gap-space-xs text-secondary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="text-on-surface font-bold ml-1">4.98 / 5.0</span>
+<span class="text-on-surface-variant font-normal">(184 asados evaluados)</span>
+</div>
+</div>
+<!-- Reviews 3-Card Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Review 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Hace 3 días</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">"El hueso francés vino impecable"</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+              Pedí la pieza de 1.5 kg para una reunión familiar en San Pedro. El marmoleado no le pide nada a una carne importada de Texas o Kobe. Con solo 40 minutos en indirecto y sellada con mezquite agarró una costra dulce y la carne se deshacía sola.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center font-label-md font-bold text-secondary">
+              RM
+            </div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold">Chef Roberto Morales</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Parrillero de Competencia, Hermosillo</span>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Hace 1 semana</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">"La cadena de frío es implacable"</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+              El empaque al alto vacío llegó perfectamente rígido con geles térmicos a 2°C. El aroma de la carne cruda denota la maduración de 28 días: limpio, sin notas ácidas indeseadas. Carnes Buelna mantiene el orgullo de Sonora bien alto.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center font-label-md font-bold text-secondary">
+              GA
+            </div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold">Guillermo A. Salazar</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Comunidad Asadores del Noroeste</span>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Hace 2 semanas</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">"Atención directa por WhatsApp excelente"</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+              Nos asesoraron directamente en WhatsApp con el grosor exacto para 6 personas. El corte Gran Reserva de 1.8 kg fue la estrella del fin de semana. Además, agregamos las sobaqueras y el chiltepín y fue una experiencia completa.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center font-label-md font-bold text-secondary">
+              LC
+            </div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold">Lic. Carlos Encinas</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Cliente Habitual Boutique Hermosillo</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FLOATING BOTTOM SUMMARY BAR FOR MOBILE / STICKY ORDER QUICK ACCESS -->
+<div class="lg:hidden sticky bottom-0 z-40 w-full bg-surface/95 backdrop-blur-xl p-space-md shadow-[0_-8px_30px_rgba(0,0,0,0.8)]" id="sticky-pdp-bar">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Tomahawk Prime Buelna</span>
+<div class="flex items-baseline gap-1">
+<span class="font-headline-sm text-headline-sm text-secondary font-bold" id="mobile-price-display">$768 MXN</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" id="mobile-weight-display">(1.2 kg)</span>
+</div>
+</div>
+<a class="inline-flex items-center gap-1.5 px-space-md py-space-sm bg-primary-container text-on-primary-container rounded-lg font-label-sm text-label-sm uppercase tracking-wider font-bold shadow-lg" href="https://wa.me/526622894000?text=Hola%20Carnes%20Buelna%2C%20deseo%20ordenar%3A%201%20pza%20de%20Tomahawk%20Prime%20(1.2%20kg%20-%20Grosor%202%22)%20con%20empaque%20al%20vac%C3%ADo%20para%20env%C3%ADo%20inmediato." id="mobile-whatsapp-cta" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>Pedir WhatsApp</span>
+</a>
+</div>
+</div>
+<!-- INTERACTIVE LOGIC SCRIPT -->
+<script>
+    // State management
+    let currentCut = {
+      name: "Tomahawk Buelna - Grado Prime",
+      weight: "1.2",
+      price: 768,
+      thickness: "2.0",
+      servings: "3 - 4 comensales",
+      quantity: 1,
+      addons: []
+    };
+
+    const imageGallery = [
+      {
+        alt: "Photographic high-resolution close-up of a raw prime tomahawk steak resting on a textured dark basalt slab. The meat displays deep ruby crimson muscle with intricate snowflake marbling. A long, clean, 30cm French-trimmed bone extends with warm rustic mesquite embers softly glowing in the dark background.",
+        caption: "Corte Crudo Marmoleado"
+      },
+      {
+        alt: "Thick Tomahawk steak sizzling on heavy cast iron grate over crackling mesquite charcoal embers with deep red sparks and golden sear marks.",
+        caption: "En Parrilla con Mezquite Sonorense"
+      },
+      {
+        alt: "Resting medium-rare Tomahawk carved into thick juicy steaks on a rustic Sonoran mesquite wooden cutting board with flaky sea salt and roasted chiltepin peppers.",
+        caption: "Corte en Mesa Reposado"
+      }
+    ];
+
+    function switchMainImage(index) {
+      const img = document.getElementById('main-cut-image');
+      if (img && imageGallery[index]) {
+        img.setAttribute('data-alt', imageGallery[index].alt);
+      }
+      
+      const buttons = document.querySelectorAll('.thumb-btn');
+      buttons.forEach((btn, idx) => {
+        if (idx === index) {
+          btn.classList.add('active', 'bg-surface-container-highest');
+          btn.classList.remove('bg-surface-container');
+          const icon = btn.querySelector('.material-symbols-outlined');
+          if (icon) {
+            icon.textContent = 'check_circle';
+            icon.classList.add('text-secondary');
+          }
+        } else {
+          btn.classList.remove('active', 'bg-surface-container-highest');
+          btn.classList.add('bg-surface-container');
+          const icon = btn.querySelector('.material-symbols-outlined');
+          if (icon) {
+            icon.textContent = idx === 1 ? 'outdoor_grill' : 'restaurant';
+            icon.classList.remove('text-secondary');
+          }
+        }
+      });
+    }
+
+    function selectPieceOption(weight, price, servings, thickness, element) {
+      currentCut.weight = weight;
+      currentCut.price = parseInt(price);
+      currentCut.servings = servings;
+      currentCut.thickness = thickness;
+
+      // Update button visual states
+      document.querySelectorAll('.piece-option').forEach(btn => {
+        btn.classList.remove('active', 'bg-surface-container-high');
+        btn.classList.add('bg-surface-container-low');
+        const icon = btn.querySelector('.material-symbols-outlined');
+        if (icon) {
+          icon.textContent = 'radio_button_unchecked';
+          icon.classList.remove('text-secondary');
+          icon.classList.add('text-tertiary-container');
+        }
+      });
+
+      element.classList.add('active', 'bg-surface-container-high');
+      element.classList.remove('bg-surface-container-low');
+      const activeIcon = element.querySelector('.material-symbols-outlined');
+      if (activeIcon) {
+        activeIcon.textContent = 'radio_button_checked';
+        activeIcon.classList.add('text-secondary');
+        activeIcon.classList.remove('text-tertiary-container');
+      }
+
+      updatePricingDisplay();
+      syncWhatsAppLink();
+    }
+
+    function incrementQty() {
+      if (currentCut.quantity < 10) {
+        currentCut.quantity++;
+        document.getElementById('quantity-display').textContent = currentCut.quantity;
+        updatePricingDisplay();
+        syncWhatsAppLink();
+      }
+    }
+
+    function decrementQty() {
+      if (currentCut.quantity > 1) {
+        currentCut.quantity--;
+        document.getElementById('quantity-display').textContent = currentCut.quantity;
+        updatePricingDisplay();
+        syncWhatsAppLink();
+      }
+    }
+
+    function updatePricingDisplay() {
+      const totalPrice = currentCut.price * currentCut.quantity;
+      const formattedTotal = '$' + totalPrice.toLocaleString('es-MX') + ' MXN';
+      
+      const priceEl = document.getElementById('calculated-price');
+      if (priceEl) priceEl.textContent = formattedTotal;
+
+      const servingsEl = document.getElementById('calculated-servings');
+      if (servingsEl) servingsEl.textContent = `Ideal para ${currentCut.servings}`;
+
+      // Update Mobile Bar
+      const mobilePrice = document.getElementById('mobile-price-display');
+      if (mobilePrice) mobilePrice.textContent = formattedTotal;
+
+      const mobileWeight = document.getElementById('mobile-weight-display');
+      if (mobileWeight) mobileWeight.textContent = `(${currentCut.quantity}x ${currentCut.weight} kg)`;
+    }
+
+    function addAddon(itemTitle, button) {
+      if (!currentCut.addons.includes(itemTitle)) {
+        currentCut.addons.push(itemTitle);
+        button.innerHTML = '<span class="material-symbols-outlined text-[16px]">check</span> Agregado';
+        button.classList.remove('bg-surface-container-highest', 'text-on-surface');
+        button.classList.add('bg-secondary', 'text-on-secondary');
+      } else {
+        currentCut.addons = currentCut.addons.filter(i => i !== itemTitle);
+        button.innerHTML = '<span class="material-symbols-outlined text-[16px]">add</span> Agregar';
+        button.classList.remove('bg-secondary', 'text-on-secondary');
+        button.classList.add('bg-surface-container-highest', 'text-on-surface');
+      }
+      syncWhatsAppLink();
+    }
+
+    function syncWhatsAppLink() {
+      const totalAmount = currentCut.price * currentCut.quantity;
+      let text = `Hola Carnes Buelna, deseo ordenar:\n- ${currentCut.quantity} pza(s) de ${currentCut.name}\n- Peso por pieza: ${currentCut.weight} kg (Grosor: ${currentCut.thickness}")\n- Total aproximado carne: $${totalAmount} MXN\n- Empaque: Termoformado al vacío exportación`;
+
+      if (currentCut.addons.length > 0) {
+        text += `\n\nComplementos solicitados:\n` + currentCut.addons.map(a => `• ${a}`).join('\n');
+      }
+
+      text += `\n\n¿Tienen disponibilidad para despacho hoy en Hermosillo / Envío Express?`;
+
+      const encoded = encodeURIComponent(text);
+      const fullUrl = `https://wa.me/526622894000?text=${encoded}`;
+
+      const desktopCta = document.getElementById('whatsapp-cta-link');
+      if (desktopCta) desktopCta.href = fullUrl;
+
+      const mobileCta = document.getElementById('mobile-whatsapp-cta');
+      if (mobileCta) mobileCta.href = fullUrl;
+    }
+
+    // Initial sync
+    syncWhatsAppLink();
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest"><div class="w-full px-gutter py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl mb-space-xl"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center"><span class="material-symbols-outlined text-secondary">local_fire_department</span></div><span class="font-headline-sm text-headline-sm uppercase text-on-surface">Carnes Buelna</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Tradición ganadera de Hermosillo, Sonora. Cortes de res con marmoleo selecto, añejamiento controlado y el sello inconfundible del asador sonorense.</p><div class="flex items-center gap-space-sm text-secondary"><span class="material-symbols-outlined text-[20px]">verified</span><span class="font-label-sm text-label-sm uppercase tracking-wider">100% Ganado Sonorense Certificado</span></div></div><div class="flex flex-col gap-space-md"><h3 class="font-label-lg text-label-lg uppercase tracking-wider text-secondary">Navegación Boutique</h3><ul class="flex flex-col gap-space-sm"><li class="font-body-sm text-body-sm"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="cortes-estelares" href="#">Ribeye, Tomahawk &amp; New York</a></li><li class="font-body-sm text-body-sm"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="paquetes-parrilleros" href="#">Parrillada Hermosillo &amp; Cajas Asado</a></li><li class="font-body-sm text-body-sm"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="calculadora-parrillera" href="#">Calculador de Porciones &amp; Carbón</a></li><li class="font-body-sm text-body-sm"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="guia-de-asado" href="#">Tiempos, Términos &amp; Fuego Indirecto</a></li></ul></div><div class="flex flex-col gap-space-md"><h3 class="font-label-lg text-label-lg uppercase tracking-wider text-secondary">Garantías &amp; Asesoría</h3><div class="p-space-md rounded-lg bg-surface-container-low flex flex-col gap-space-xs"><span class="font-label-sm text-label-sm text-primary uppercase">Cadena de Frío Estricta</span><span class="font-body-sm text-body-sm text-on-surface-variant">Empaque termoformado al alto vacío y congelación criogénica para conservar frescura y jugosidad.</span></div><div class="p-space-md rounded-lg bg-surface-container-low flex flex-col gap-space-xs"><span class="font-label-sm text-label-sm text-secondary uppercase">Atención de Maestro Parrillero</span><span class="font-body-sm text-body-sm text-on-surface-variant">Asesoría en gramos, grosores de 1.5" a 2" y técnicas de sellado vía WhatsApp.</span></div></div><div class="flex flex-col gap-space-md"><h3 class="font-label-lg text-label-lg uppercase tracking-wider text-secondary">Boutique &amp; Despacho</h3><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><div class="flex items-center gap-space-xs text-on-surface"><span class="material-symbols-outlined text-[18px] text-primary">pin_drop</span><span>Matriz: Hermosillo, Sonora, México</span></div><span>Blvd. Kino #410, Zona Hotelera</span><span>Envíos refrigerados express a todo México</span></div><a class="inline-flex items-center justify-center gap-space-xs px-space-md py-space-sm rounded-lg bg-surface-container-high text-on-surface hover:bg-secondary-container hover:text-on-secondary-container transition-all font-label-sm text-label-sm uppercase tracking-wider" data-path="contacto-whatsapp" href="#"><span class="material-symbols-outlined text-[18px]">send</span><span>Chat Directo Hermosillo</span></a></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md"><span class="font-body-sm text-body-sm text-on-surface-variant">© 2025 Carnes Buelna S.A. de C.V. Orgullo y Raza del Desierto Sonorense.</span><div class="flex items-center gap-space-lg"><a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="terminos-servicio" href="#">Términos de Envío</a><a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="aviso-privacidad" href="#">Aviso de Privacidad</a></div></div></div></footer></body></html>
